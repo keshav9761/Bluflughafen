@@ -1,0 +1,48 @@
+{
+    "CustomerLogin": "Login",
+    "para-graph": "Join us! and enjoy your ride in just simple steps.",
+    "pass-add": "Email address",
+    "email-hint":"We'll never share your email with anyone else.",
+    "Password": "Password",
+    "Notamemberyet?": "Not a member yet ?",
+    "EMich":"Remind me",
+    "submit":"Submit",
+    "joinnow":"Join Now",
+
+ 
+    "Zfassung":" Summary ",
+    "wah":"Choose",
+    "AusgetF":"Selected vehicle",
+    "gesamt":"In total",
+    "extopt":"Extra Options",
+    "contactI":"Contact-Information",
+    "bilADD":"Billing address",
+    "fn":"First name*",
+    "surn":"Surname/Surname*",
+    "tel":"phone number",
+    "remark":"Remarks",
+    "barZ":"Booking Details",
+    "ubert":"transmission type",
+    "dist":"distance",
+    "pickt":"Pickup Date - Time",
+    "estimTravtime":"Estimated travel time",
+    "pickup_destinate_addres":"Pick-up address - destination address",
+    "vehiInfo":"vehicle info",
+    "vehicl":"vehicle",
+    "diskcount":"Do you have a discount code?",
+    "applcode":"Apply code",
+
+
+    "footerText":"Airport TransportTaxi is an independent taxi calculator for planning, ordering and billing of taxi and airport transfers. On the basis of current taxi prices, we calculate the distance and time-dependent taxi costs.",
+    "Foot-Roobeena":"Robeena Butt",
+    "foot-location":"Location",
+    "foot-link":"Link",
+    "working-hour":"Working Hours",
+    "foot-texNumber":"Tax Number",
+
+    "header-calculte&price":"Calculate & Price Book",
+    "header-aboutUs":"About Us",
+    "header-BussinesAccount":"Business Account",
+    "header-Imprint":"Imprint",
+    "header-newsUpdate":"News & Updates"
+  }

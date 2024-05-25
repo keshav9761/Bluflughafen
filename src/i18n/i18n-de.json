@@ -1,0 +1,49 @@
+{
+    "CustomerLogin": "Login",
+    "para-graph":"Begleiten Sie uns! und genießen Sie Ihre Fahrt in nur einfachen Schritten.",
+    "Notamemberyet?": "Noch Kein Mitglied?",
+    "pass-add":"E-Mail-Addresse",
+    "email-hint":"Wir werden Ihre E-Mail-Adresse niemals an Dritte weitergeben.",
+    "Password":"Passwort",
+    "EMich":"Erinnere Mich",
+    "submit":"Einreichen",
+    "joinnow":"Jetzt registrieren",
+
+    "Zfassung":"Zusammenfassung",
+    "wah":"Wahlen",
+    "AusgetF":"Ausgewahltes Fahrzeug",
+    "gesamt":"Gesamt",
+    "extopt":"Extra Optionen",
+    "contactI":"Kontakt-Information",
+    "bilADD":"Rechungsadresse",
+    "fn":"Vorname*",
+    "surn":"Familienname/Nachname* ",
+    "tel":"Telefonummer*",
+    "remark":"Bemerkungen",
+    "barZ":"Buchungsdetails",
+    "ubert":"Ubertragungsart",
+    "dist":"Entfernug",
+    "pickt":"Abholdatum - Zeit",
+    "estimTravtime":"Geschatzte Fahrzeit",
+    "pickup_destinate_addres":"Abholadresse - Zieladresse",
+    "vehiInfo":"Fahrzeuginfo",
+    "vehicl":"Fahrzeug",
+    "diskcount":"Haben sie elnen Rabattcode?",
+    "applcode":"Kode Anwenden",
+
+
+    "footerText":"Airport TransportTaxi ist ein unabhängiger Taxirechner zur Planung, Bestellung und Abrechnung von Taxi- und Flughafentransfers. Auf Basis aktueller Taxipreise berechnen wir die entfernungs- und zeitabhängigen Taxikosten.",
+    "Foot-Roobeena":"Robeena Hintern",
+    "foot-location":"Standort",
+    "foot-link":"Verknüpfungen",
+    "working-hour":"Arbeitszeit",
+    "foot-texNumber":"Steuernummer",
+
+
+    "header-calculte&price":"Berechnen & Preis buchen",
+    "header-aboutUs":"Über uns",
+    "header-BussinesAccount":"Geschäftskonto",
+    "header-Imprint":"Impressum",
+    "header-newsUpdate":"Nachrichten Update"
+
+  }

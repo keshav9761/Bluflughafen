@@ -1,13 +1,697 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+:root {
+  --primary: #0E4672;
+  --white: #FFFF;
+  --shadow: 0px 4px 4px -2px rgba(14, 70, 114, 0.3);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bluetext {
+  color: #0E4672 !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: whitesmoke;
+  font-size: 14px;
+  overflow-x: hidden;
+  font-family: 'DM Sans', sans-serif !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/* ---btn---- */
+.btn:hover,
+.btn:active {
+  color: #000;
+  border: 2px solid #E6E6E6;
+
+}
+
+/* Override */
+
+.btn-primary {
+  background-color: var(--primary);
+  font-size: 14px;
+  color: white;
+  border: unset;
+  padding: 8px;
+  border-radius: 6px;
+  border: 2px solid #E6E6E6;
+}
+
+.btn-outline-default {
+  --bs-btn-color: #0E4672;
+  --bs-btn-bg: transparent;
+  --bs-btn-border-color: transparent;
+  --bs-btn-hover-color: #0E4672;
+  --bs-btn-hover-bg: transparent;
+  --bs-btn-hover-border-color: transparent;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #0E4672;
+  --bs-btn-active-bg: transparent;
+  --bs-btn-active-border-color: transparent;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #0E4672;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: transparent;
+  border: none;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+  background-color: var(--primary);
+  color: white;
+}
+
+.payment-mehtod-button {
+  border: 2px solid #E6E6E6;
+}
+
+.white-card {
+  background: #FFFFFF;
+  border-bottom: 2px solid #E0E0E0;
+  box-shadow: var(--shadow);
+  /* padding-bottom: 4rem; */
+}
+
+.vertical-line {
+  margin-top: 20px;
+  border-left: 2px solid slategrey;
+  height: 240px;
+}
+
+@media screen and (max-width: 768px) {
+  .vertical-line {
+    /* display: none; */
+    border-left: 2px solid slategrey;
+    background: slategrey;
+    height: 2px;
+    width: 90%;
+    margin-left: 4%;
+
+  }
+}
+
+.span {
+  color: #0b74c5;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.span-text {
+  font-size: 15.7236px;
+  font-weight: 500;
+  text-align: center;
+}
+
+/*------ header-link------- */
+.link {
+  text-decoration: none;
+  color: #000000;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.6592px;
+  line-height: 20px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.link:hover {
+  color: #000000;
+}
+
+.p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18.7236px;
+  line-height: 33px;
+  color: #000000;
+
+}
+
+
+.message-img {
+  margin-left: 145px;
+}
+
+.col.text-white.d-flex.mx-5.styleShadow {
+  box-shadow: -1px 37px 0px 10px #0F3756;
+}
+
+.shadow2 {
+  box-shadow: 0px 39px 1px -17px #0f3756
+}
+
+.shadow22 {
+  box-shadow: 0px 44px 1px 10px #0f3756
+}
+
+.text-position {
+  bottom: 10px;
+  left: 50px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24.4889px;
+  line-height: 31px;
+  color: #000000;
+}
+
+
+.footer-text {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 38px;
+  color: #FFFFFF
+}
+
+
+.footer-text-header {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20.4037px;
+  line-height: 36px;
+  white-space: nowrap;
+
+  color: #FFFFFF;
+}
+
+.footer-blog-text {
+  /* font-family: 'DM Sans'; */
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.8677px;
+  line-height: 26px;
+
+  color: #FFFFFF;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #97ADBE;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.6592px;
+  line-height: 20px;
+  text-align: start;
+  /* white-space: nowrap; */
+}
+
+h2 {
+  /* font-family: 'DM Sans'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26.2333px;
+  line-height: 46px;
+  margin: revert;
+
+
+}
+
+b {
+  font-size: 17px
+}
+
+.location-num {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.avtar-position {
+  position: relative;
+  left: -125px;
+  top: 36px;
+}
+
+
+/* Over Ride Stepper */
+.MuiStepLabel-root .MuiSvgIcon-root {
+  font-size: 3rem;
+  font-family: 'DM Sans';
+  color: var(--primary);
+}
+
+.MuiStepLabel-root .MuiSvgIcon-root .MuiStepIcon-text {
+  color: var(--primary);
+}
+
+
+.puls-minus-btn-darkblue {
+  border-top-left-radius: 1.2rem;
+  border-bottom-left-radius: 1.2rem;
+  background-color: #1F3648;
+  text-align: center;
+  color: #fff;
+  padding: 3px;
+  font-size: 1.5rem;
+  /* font-family: 'DM Sans' */
+}
+
+.puls-minus-btn-skyblue {
+  border-top-right-radius: 1.2rem;
+  border-bottom-right-radius: 1.2rem;
+  background-color: #C2DDF2;
+  color: #1F3648;
+  text-align: center;
+  padding: 3px;
+  font-size: 1.5rem
+}
+
+.Gesamt-text {
+  color: #0E4672;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.card-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 31px;
+
+  color: #000000;
+
+}
+
+/*  */
+.vehicle-option-sider-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  margin-top: 15px;
+  color: #FFFFFF;
+
+}
+
+.vehicle-card-text {
+  font-family: 'DM Sans';
+  font-Weight: 500;
+  font-size: 18px;
+  Line-height: 23.44px;
+  color: #0E4672;
+}
+
+.thanku {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 65px;
+  color: #1F3648;
+}
+
+.custom-select:focus {
+  /* outline: none; */
+}
+
+
+/* summary component textfield */
+.custom-textfield input {
+  color: #fff;
+
+}
+
+.custom-textfield .Mui-focused {
+  color: #17A2B8 !important;
+  font-size: large;
+  font-weight: 500;
+  /* margin-bottom:25px; */
+
+}
+
+.custom-textfield .MuiInputBase-root:after {
+  border-bottom: white;
+
+}
+
+.custom-textfield label {
+  color: #fff;
+
+}
+
+.select {
+  border: 0px;
+  outline: 0px;
+  Border: none;
+}
+
+.select option {
+  Border: none;
+}
+
+/* ------------------Admin booking page------------------ */
+.admin-booking {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1F3648;
+}
+
+.label-text {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  text-align: left;
+  color: #1F3648;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.heading-section {
+  /* font-family:DM Sans; */
+  /* width: 1741px; */
+  height: 55px;
+  background: #1F3648;
+  color: #fff;
+  padding: 16px;
+  font-size: large;
+}
+
+.label-admin-text {
+  /* font-family: 'DM Sans'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 18px;
+  color: #455E72;
+  margin-bottom: 10px;
+}
+
+.text-admin {
+  /* font-family: DM Sans; */
+  font-size: 20px;
+  font-weight: 590;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1F3648;
+}
+
+.table-th {
+  background-color: #F1F9FF;
+}
+
+/* driver-register */
+.driver-heading {
+  /* font-family: 'DM Sans'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 52px;
+  color: #0E4672;
+}
+
+.text-driver {
+  /* font-family: DM Sans; */
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000
+}
+
+.drive-step {
+  /* font-family: DM Sans; */
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0E4672
+}
+
+.drive-step-content {
+  /* font-family: DM Sans; */
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0E4672
+}
+
+/* @media screen and (max-width: 320px){
+  #image-section{
+      width: 100%;
+      height: auto;
+      
+    };
+  } */
+
+/* home page  */
+
+.homeBackImg {
+  background-image: url("../src/Assets/Images/homePageBackImg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: contain;
+}
+
+
+/* input type file */
+input::file-selector-button {
+  font-weight: bold;
+  background-color: dodgerblue;
+  color: white;
+  /* padding: 0.5em; */
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+
+/* AboutUs Page */
+
+.imgAbout {
+  height: auto;
+  width: 100%;
+
+}
+
+
+
+
+.paragraph {
+  text-align: justify;
+  font-size: 16px;
+  font-family: 'DM Sans', sans-serif !important;
+}
+
+.h1About {
+  text-align: left;
+  font-weight: bold;
+  font-family: 'DM Sans', sans-serif !important;
+  margin-bottom: 25px
+}
+
+.h3About {
+  text-align: left;
+  font-weight: bold;
+  font-family: 'DM Sans', sans-serif !important;
+}
+
+.h4About {
+  text-align: left;
+  font-family: 'DM Sans', sans-serif !important;
+}
+
+.ulAbout {
+  list-style-type: square;
+  text-align: left;
+  font-size: 16px;
+  font-family: 'DM Sans', sans-serif !important;
+}
+
+.blueCard {
+  margin-top: 80px;
+  background-color: #0E4672;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.blueCardParagraph {
+  text-align: left;
+  font-size: 16px;
+  font-family: 'DM Sans', sans-serif !important;
+}
+
+.h6,
+.h2 {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.bookNow {
+  margin-top: 10px;
+}
+
+/* Imprint Page */
+.inputImprint {
+  border-style: dashed;
+  border-color: #ccc;
+  outline: none;
+  box-shadow: none;
+}
+
+.h6Imprint,
+.paraImprint {
+  font-weight: bold;
+}
+
+.h2Imprint {
+  font-weight: 600
+}
+
+.black {
+  background-color: #F5F5F5;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.border {
+  border-style: dashed;
+}
+
+.shadowBox-title {
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.shadowBox-content {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 17px;
+}
+
+.iconImprint {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.icon-HnW {
+  height: 60px;
+  width: 50px;
+  margin-top: 20px;
+}
+
+/* bussiness-summary */
+.summary-label {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.9714px;
+  line-height: 22px;
+  color: #455E72;
+}
+
+.passanger-details {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18.8286px;
+  line-height: 27px;
+  color: #1F3648
+}
+
+.return-way {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+
+  color: #0E4672
+}
+
+/*   new Term & condition Page */
+
+.text-header {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000
+}
+
+.text-termcondition {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000
+}
+
+.main-heads {
+  /* font-family: 'DM Sans'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 35px;
+  color: #0E4672;
+}
+
+/* Admin-first-page */
+.Box-width {
+  width: "364px"
+}
+
+/* ----------------vehiclePageIssues--------------------- */
+.people-bag {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+  margin-top: 3px;
+}
+
+.vehicle-type {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  color: #000000;
+}
+
+.capsule-Number {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000
+}
+
+.ride-booking {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 40px;
+  color: #0E4672
 }

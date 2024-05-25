@@ -1,0 +1,159 @@
+
+.ride{
+  font-size: 16px;
+  color: #0E4672;
+}
+.btn{
+  background-color: #1F3648;
+  color: #fff;
+  height: 33px;
+  width: 96px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.steps {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 2rem;
+position: relative;
+}
+
+.step-button {
+width: 40px;
+height: 40px;
+border-radius: 50%;
+border: none;
+background-color:#fff;
+transition: .4s;
+color: #000;
+margin-top:13px;
+}
+
+.step-button[aria-expanded="true"] {
+width: 60px;
+height: 60px;
+background-color: var(--prm-color);
+color: #fff;
+}
+
+.done {
+background-color: var(--prm-color);
+color: #fff;
+}
+
+.step-item {
+z-index: 10;
+/*  text-align: center;*/
+}
+
+#progress {
+-webkit-appearance:none;
+position: absolute;
+width: 96%;
+z-index: 5;
+height: 2px;
+margin-left: 18px;
+margin-bottom: 6px;
+}
+
+/* to customize progress bar */
+#progress::-webkit-progress-value {
+background-color:  #1F3648;
+transition: .5s ease;
+}
+
+#progress::-webkit-progress-bar {
+background-color:  #1F3648;
+
+}
+.btn:hover {
+color: #fff;
+text-decoration: none;
+}
+.extra{
+color: #0E4672;
+}
+h6.plussign {
+width: 107px;
+margin-top: 0px;
+}
+input.plus {
+width: 44px;
+background-color:#1F3648; 
+color:#fff;
+border-radius: 15px;
+}
+input.minus {
+width: 44px;
+ border-radius: 15px;
+}
+
+a {
+/*background-color: #ffff0047;*/
+/* background-color: #1F3648; */
+  color: #fff;
+}
+button.btns {
+margin-top: 27px;
+margin-left: 100px;
+}
+.seat {
+border: 1px solid #ccc;
+padding: 15px;
+margin-top: 10px;
+border-radius: 5px;
+width: 620px;
+}
+button.btncont {
+background: #1F3648; 
+color: #fff;
+width: 150px;
+margin-top: 15px;
+margin-left: 25px;
+height: 36px;
+}
+.sidebar-nav .navbar .navbar-collapse {
+padding: 0;
+max-height: none;
+}
+.sidebar-nav .navbar ul {
+float: none;
+display: block;
+}
+.sidebar-nav .navbar li {
+float: none;
+display: block;
+}
+.sidebar-nav .navbar li a {
+padding-top: 12px;
+padding-bottom: 12px;
+}
+
+/*  .sidebar-nav .navbar ul {
+float: none;
+display: block;
+ background-color: #1F3648;
+  color: #fff;
+}*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+color: #555;
+background-color: #1F3648;
+}
+.navbar-default .navbar-nav>li>a {
+color: #fff;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+color: #fff;
+background-color: #1F3648;
+}
+p.para {
+color: blue;
+font-size: 12px;
+text-align: left;
+}
+.caricon {
+border: 1px solid #ccc;
+width: 620px;
+border-radius: 5px;
+}
